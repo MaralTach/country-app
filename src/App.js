@@ -1,24 +1,17 @@
-import logo from './logo.svg';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
+import Container from 'react-bootstrap/Container';
+import Header from './components/header/Header';
+import LegendContainer from './components/legends/LegendContainer';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Container className='text-center mt-5'>
+     <Header/>
+     <LegendContainer/>
+    </Container>
+   
   );
 }
 
