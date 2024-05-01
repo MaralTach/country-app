@@ -1,4 +1,4 @@
-# Country Legend Application
+# Country Application
 
 ## Description
 
@@ -21,4 +21,4 @@ This project is a web application that displays information about different coun
 
 ## Screenshots
 
-![Country Legend App](./src/assets/Gifcountry.gif)
+![Country App](./src/assets/Gifcountry.gif)
