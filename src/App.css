@@ -19,81 +19,54 @@ body{
   padding: 5px;
   border-radius: 1rem;
   display: inline-block;
+ 
+}
+.title2{
+  color: black;
+  background-color: rgba(250,251,251,0.5);
+  padding: 5px;
+  display: inline-block;
+  font-weight: 800;
+  font-family: "Playfair Display", serif;
+  font-size: 25px;
+}
+.card-container {
+  background-color: rgb(11, 22, 35, 0.6);
+  min-height: 350px;
+}
 
-}
-.card-container{
-  border: 1px solid red;
-}
-.flag-card{
-  position: relative;
-  width: 450px;
-  height: 470px;
-  border-radius: 20px;
+.flag-card {
+  height: 350px;
   overflow: hidden;
-  border: 1px solid;
-  text-align: center;
-  padding-top: 10px;
-  box-shadow: 4px 4px 20px black;
 }
-
-.card img {
-  width: 450px;
-  height: 470px;
-  align-items: center;
-  cursor: pointer;
-  object-fit: cover;
-  border-radius: 20px;
-  transition: transform 0.8s;
+.flag-card:hover {
+  box-shadow: 3px 3px 20px 5px rgba(0, 0, 0, 0.5);
+  & img {
+    transform: scale(1.1);
+    filter: none;
+  }
 }
-
-.card img:hover {
-  transform: scale(1.1);
-}
-
-.description {
-  position: absolute;
-  top: 100%; /* Açıklamanın resmin altından başlaması için */
-  left: 0;
-  width: 100%;
+.flag-card img {
+  /* filter:blur(3px); */
+  transition: transform 0.3s;
   height: 100%;
-  background-color: aliceblue;
-  border-radius: 20px;
-  overflow: hidden;
-  transition: top 0.5s; /* Açıklamanın yukarı çıkıp inmesi için animasyon */
+  width: 100%;
+  padding: 3px;
+  /* filter: sepia(5); */
 }
-
-.card:hover .description {
-  top: 0; /* Resmin altından açıklamanın gelmesi */
-}
-
-.description ul {
-  margin: 0;
-  padding: 20px;
-  list-style: none;
-}
-
-.description li {
-  font-family: serif;
-  font-size: 20px;
-  padding-left: 20px;
-  position: relative;
-  opacity: 0; /* Açıklamanın yukarıdan aşağı inmesi için başlangıçta görünmez olmalı */
-  transition: opacity 0.5s ease-in-out;
-}
-
-.card:hover .description li {
-  opacity: 1; /* Açıklamanın yukarıdan aşağı inmesi için görünür hale gelmesi */
-}
-
-.card p {
-  font-size: 20px;
-  padding: 30px;
-}
-.description li {
-  font-family: serif;
-  font-size: 20px;
-  list-style: " 🏀 ";
-  list-style-position: inside;
+.text{
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: left;
   text-align: left;
-  padding: 20px;
+  height: 100%;
+  width: 100%;
+  gap: 1rem;
+
+}
+.text .item{
+  font-weight: 800;
+  padding: 12px;
+  
 }

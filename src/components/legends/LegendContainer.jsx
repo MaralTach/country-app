@@ -24,7 +24,7 @@ const countriesWithIds = countries.map(country => ({
 
   return (
     <div>
-      <Form.Control type="search" placeholder="Search country.." onChange={handleChange} />
+      <Form.Control type="search" placeholder="Search country.." onChange={handleChange} className="mb-3" />
       <Container className="card-container">
         <Row xs={1} md={2} lg={3}>
           {filteredCountries.map((country) => (

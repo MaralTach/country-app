@@ -3,8 +3,8 @@ const countries = [
 			"name": "Afghanistan",
 			"capital": "Kabul",
 			"languages": [
-					"Pashto",
-					"Uzbek",
+					"Pashto, ",
+					"Uzbek, ",
 					"Turkmen"
 			],
 			"population": 40218234,
@@ -49,7 +49,7 @@ const countries = [
 			"name": "American Samoa",
 			"capital": "Pago Pago",
 			"languages": [
-					"English",
+					"English,",
 					"Samoan"
 			],
 			"population": 55197,
@@ -93,7 +93,7 @@ const countries = [
 	{
 			"name": "Antarctica",
 			"languages": [
-					"English",
+					"English, ",
 					"Russian"
 			],
 			"population": 1000,
@@ -116,7 +116,7 @@ const countries = [
 			"name": "Argentina",
 			"capital": "Buenos Aires",
 			"languages": [
-					"Spanish",
+					"Spanish, ",
 					"Guaraní"
 			],
 			"population": 45376763,
@@ -139,7 +139,7 @@ const countries = [
 			"name": "Aruba",
 			"capital": "Oranjestad",
 			"languages": [
-					"Dutch",
+					"Dutch, ",
 					"(Eastern) Punjabi"
 			],
 			"population": 106766,
@@ -228,7 +228,7 @@ const countries = [
 			"name": "Belarus",
 			"capital": "Minsk",
 			"languages": [
-					"Belarusian",
+					"Belarusian, ",
 					"Russian"
 			],
 			"population": 9398861,
@@ -240,8 +240,8 @@ const countries = [
 			"name": "Belgium",
 			"capital": "Brussels",
 			"languages": [
-					"Dutch",
-					"French",
+					"Dutch, ",
+					"French, ",
 					"German"
 			],
 			"population": 11555997,
@@ -253,7 +253,7 @@ const countries = [
 			"name": "Belize",
 			"capital": "Belmopan",
 			"languages": [
-					"English",
+					"English, ",
 					"Spanish"
 			],
 			"population": 397621,
@@ -298,8 +298,8 @@ const countries = [
 			"name": "Bolivia (Plurinational State of)",
 			"capital": "Sucre",
 			"languages": [
-					"Spanish",
-					"Aymara",
+					"Spanish, ",
+					"Aymara, ",
 					"Quechua"
 			],
 			"population": 11673029,
@@ -322,8 +322,8 @@ const countries = [
 			"name": "Bosnia and Herzegovina",
 			"capital": "Sarajevo",
 			"languages": [
-					"Bosnian",
-					"Croatian",
+					"Bosnian, ",
+					"Croatian, ",
 					"Serbian"
 			],
 			"population": 3280815,
@@ -335,7 +335,7 @@ const countries = [
 			"name": "Botswana",
 			"capital": "Gaborone",
 			"languages": [
-					"English",
+					"English, ",
 					"Tswana"
 			],
 			"population": 2351625,
@@ -346,8 +346,8 @@ const countries = [
 	{
 			"name": "Bouvet Island",
 			"languages": [
-					"Norwegian",
-					"Norwegian Bokmål",
+					"Norwegian, ",
+					"Norwegian Bokmål, ",
 					"Norwegian Nynorsk"
 			],
 			"population": 0,
@@ -434,7 +434,7 @@ const countries = [
 			"name": "Burkina Faso",
 			"capital": "Ouagadougou",
 			"languages": [
-					"French",
+					"French, ",
 					"Fula"
 			],
 			"population": 20903278,
@@ -446,7 +446,7 @@ const countries = [
 			"name": "Burundi",
 			"capital": "Gitega",
 			"languages": [
-					"French",
+					"French, ",
 					"Kirundi"
 			],
 			"population": 11890781,
@@ -469,7 +469,7 @@ const countries = [
 			"name": "Cameroon",
 			"capital": "Yaoundé",
 			"languages": [
-					"English",
+					"English, ",
 					"French"
 			],
 			"population": 26545864,
@@ -481,7 +481,7 @@ const countries = [
 			"name": "Canada",
 			"capital": "Ottawa",
 			"languages": [
-					"English",
+					"English, ",
 					"French"
 			],
 			"population": 38005238,
@@ -515,7 +515,7 @@ const countries = [
 			"name": "Central African Republic",
 			"capital": "Bangui",
 			"languages": [
-					"French",
+					"French,",
 					"Sango"
 			],
 			"population": 4829764,
@@ -527,7 +527,7 @@ const countries = [
 			"name": "Chad",
 			"capital": "N'Djamena",
 			"languages": [
-					"French",
+					"French,",
 					"Arabic"
 			],
 			"population": 16425859,
@@ -594,7 +594,7 @@ const countries = [
 			"name": "Comoros",
 			"capital": "Moroni",
 			"languages": [
-					"Arabic",
+					"Arabic,",
 					"French"
 			],
 			"population": 869595,
@@ -606,7 +606,7 @@ const countries = [
 			"name": "Congo",
 			"capital": "Brazzaville",
 			"languages": [
-					"French",
+					"French,",
 					"Lingala"
 			],
 			"population": 5518092,
@@ -618,10 +618,10 @@ const countries = [
 			"name": "Congo (Democratic Republic of the)",
 			"capital": "Kinshasa",
 			"languages": [
-					"French",
-					"Lingala",
-					"Kongo",
-					"Swahili",
+					"French,",
+					"Lingala,",
+					"Kongo,",
+					"Swahili,",
 					"Luba-Katanga"
 			],
 			"population": 89561404,
@@ -633,7 +633,7 @@ const countries = [
 			"name": "Cook Islands",
 			"capital": "Avarua",
 			"languages": [
-					"English",
+					"English,",
 					"Cook Islands Māori"
 			],
 			"population": 18100,
@@ -678,8 +678,8 @@ const countries = [
 			"name": "Curaçao",
 			"capital": "Willemstad",
 			"languages": [
-					"Dutch",
-					"(Eastern) Punjabi",
+					"Dutch,",
+					"(Eastern) Punjabi,",
 					"English"
 			],
 			"population": 155014,
@@ -691,8 +691,8 @@ const countries = [
 			"name": "Cyprus",
 			"capital": "Nicosia",
 			"languages": [
-					"Greek (modern)",
-					"Turkish",
+					"Greek (modern),",
+					"Turkish,",
 					"Armenian"
 			],
 			"population": 1207361,
@@ -704,7 +704,7 @@ const countries = [
 			"name": "Czech Republic",
 			"capital": "Prague",
 			"languages": [
-					"Czech",
+					"Czech,",
 					"Slovak"
 			],
 			"population": 10698896,
@@ -727,7 +727,7 @@ const countries = [
 			"name": "Djibouti",
 			"capital": "Djibouti",
 			"languages": [
-					"French",
+					"French,",
 					"Arabic"
 			],
 			"population": 988002,
@@ -794,9 +794,9 @@ const countries = [
 			"name": "Equatorial Guinea",
 			"capital": "Malabo",
 			"languages": [
-					"Spanish",
-					"French",
-					"Portuguese",
+					"Spanish,",
+					"French,",
+					"Portuguese,",
 					"Fang"
 			],
 			"population": 1402985,
@@ -808,14 +808,14 @@ const countries = [
 			"name": "Eritrea",
 			"capital": "Asmara",
 			"languages": [
-					"Tigrinya",
-					"Arabic",
-					"English",
-					"Tigre",
-					"Kunama",
-					"Saho",
-					"Bilen",
-					"Nara",
+					"Tigrinya,",
+					"Arabic,",
+					"English, ",
+					"Tigre,",
+					"Kunama,",
+					"Saho, ",
+					"Bilen, ",
+					"Nara, ",
 					"Afar"
 			],
 			"population": 5352000,
@@ -871,9 +871,9 @@ const countries = [
 			"name": "Fiji",
 			"capital": "Suva",
 			"languages": [
-					"English",
-					"Fijian",
-					"Fiji Hindi",
+					"English, ",
+					"Fijian, ",
+					"Fiji Hindi, ",
 					"Rotuman"
 			],
 			"population": 896444,
@@ -885,8 +885,8 @@ const countries = [
 			"name": "Finland",
 			"capital": "Helsinki",
 			"languages": [
-					"Finnish",
-					"Swedish"
+					"Finnish, ",
+					"Swedish, "
 			],
 			"population": 5530719,
 			"flag": "https://flagcdn.com/fi.svg",
@@ -1049,8 +1049,8 @@ const countries = [
 			"name": "Guam",
 			"capital": "Hagåtña",
 			"languages": [
-					"English",
-					"Chamorro",
+					"English, ",
+					"Chamorro, ",
 					"Spanish"
 			],
 			"population": 168783,
@@ -1073,8 +1073,8 @@ const countries = [
 			"name": "Guernsey",
 			"capital": "St. Peter Port",
 			"languages": [
-					"English",
-					"French"
+					"English, ",
+					"French, "
 			],
 			"population": 62999,
 			"flag": "https://flagcdn.com/gg.svg",
@@ -1085,8 +1085,8 @@ const countries = [
 			"name": "Guinea",
 			"capital": "Conakry",
 			"languages": [
-					"French",
-					"Fula"
+					"French, ",
+					"Fula, "
 			],
 			"population": 13132792,
 			"flag": "https://flagcdn.com/gn.svg",
@@ -1119,8 +1119,8 @@ const countries = [
 			"name": "Haiti",
 			"capital": "Port-au-Prince",
 			"languages": [
-					"French",
-					"Haitian"
+					"French, ",
+					"Haitian, "
 			],
 			"population": 11402533,
 			"flag": "https://flagcdn.com/ht.svg",
@@ -1141,9 +1141,9 @@ const countries = [
 			"name": "Vatican City",
 			"capital": "Vatican City",
 			"languages": [
-					"Latin",
-					"Italian",
-					"French",
+					"Latin, ",
+					"Italian ,",
+					"French, ",
 					"German"
 			],
 			"population": 451,
@@ -1177,7 +1177,7 @@ const countries = [
 			"name": "Hong Kong",
 			"capital": "City of Victoria",
 			"languages": [
-					"English",
+					"English ,",
 					"Chinese"
 			],
 			"population": 7481800,
@@ -1200,7 +1200,7 @@ const countries = [
 			"name": "India",
 			"capital": "New Delhi",
 			"languages": [
-					"Hindi",
+					"Hindi ,",
 					"English"
 			],
 			"population": 1380004385,
@@ -1245,7 +1245,7 @@ const countries = [
 			"name": "Iraq",
 			"capital": "Baghdad",
 			"languages": [
-					"Arabic",
+					"Arabic, ",
 					"Kurdish"
 			],
 			"population": 40222503,
@@ -1257,7 +1257,7 @@ const countries = [
 			"name": "Ireland",
 			"capital": "Dublin",
 			"languages": [
-					"Irish",
+					"Irish ,",
 					"English"
 			],
 			"population": 4994724,
@@ -1269,7 +1269,7 @@ const countries = [
 			"name": "Isle of Man",
 			"capital": "Douglas",
 			"languages": [
-					"English",
+					"English , ",
 					"Manx"
 			],
 			"population": 85032,
@@ -1281,7 +1281,7 @@ const countries = [
 			"name": "Israel",
 			"capital": "Jerusalem",
 			"languages": [
-					"Hebrew (modern)",
+					"Hebrew (modern) ,",
 					"Arabic"
 			],
 			"population": 9216900,
@@ -1326,7 +1326,7 @@ const countries = [
 			"name": "Jersey",
 			"capital": "Saint Helier",
 			"languages": [
-					"English",
+					"English, ",
 					"French"
 			],
 			"population": 100800,
@@ -1349,7 +1349,7 @@ const countries = [
 			"name": "Kazakhstan",
 			"capital": "Nur-Sultan",
 			"languages": [
-					"Kazakh",
+					"Kazakh , ",
 					"Russian"
 			],
 			"population": 18754440,
@@ -1361,7 +1361,7 @@ const countries = [
 			"name": "Kenya",
 			"capital": "Nairobi",
 			"languages": [
-					"English",
+					"English ,",
 					"Swahili"
 			],
 			"population": 53771300,
@@ -1395,7 +1395,7 @@ const countries = [
 			"name": "Kyrgyzstan",
 			"capital": "Bishkek",
 			"languages": [
-					"Kyrgyz",
+					"Kyrgyz ,",
 					"Russian"
 			],
 			"population": 6591600,
@@ -1429,7 +1429,7 @@ const countries = [
 			"name": "Lebanon",
 			"capital": "Beirut",
 			"languages": [
-					"Arabic",
+					"Arabic ,",
 					"French"
 			],
 			"population": 6825442,
@@ -1441,7 +1441,7 @@ const countries = [
 			"name": "Lesotho",
 			"capital": "Maseru",
 			"languages": [
-					"English",
+					"English ,",
 					"Southern Sotho"
 			],
 			"population": 2142252,
@@ -1497,8 +1497,8 @@ const countries = [
 			"name": "Luxembourg",
 			"capital": "Luxembourg",
 			"languages": [
-					"French",
-					"German",
+					"French , ",
+					"German ,",
 					"Luxembourgish"
 			],
 			"population": 632275,
@@ -1509,7 +1509,7 @@ const countries = [
 	{
 			"name": "Macao",
 			"languages": [
-					"Chinese",
+					"Chinese , ",
 					"Portuguese"
 			],
 			"population": 649342,
@@ -2773,8 +2773,8 @@ const countries = [
 			"name": "Vanuatu",
 			"capital": "Port Vila",
 			"languages": [
-					"Bislama",
-					"English",
+					"Bislama ,",
+					"English ,", 
 					"French"
 			],
 			"population": 307150,
@@ -2852,8 +2852,8 @@ const countries = [
 			"name": "Zimbabwe",
 			"capital": "Harare",
 			"languages": [
-					"English",
-					"Shona",
+					"English , ",
+					"Shona ,",
 					"Northern Ndebele"
 			],
 			"population": 14862927,
